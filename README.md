@@ -42,9 +42,9 @@ The single contained function, "**run_analysis()**" has two optional parameters:
 
 * the directory in which the original data set tree (from URL above is located).  default = '.'
 
-* the output filename into which the data should be written.  default = './tidy.dat'
+* the output filename into which the data should be written.  default = './tidy.txt'
 
-Besides the creation of a tidy.dat file, the summarized data are also returned as a data.frame from the function.  
+Besides the creation of a tidy.txt file, the summarized data are also returned as a data.frame from the function.  
 
 # Sample Demo
 
@@ -52,7 +52,7 @@ Besides the creation of a tidy.dat file, the summarized data are also returned a
 > setwd("~/CDproj")
 > source("run_analysis.R")
 > tidy <- run_analysis()
-writing results to file: ./tidy.dat...
+writing results to file: ./tidy.txt...
 > dim(tidy)
 [1] 180  68
 ```

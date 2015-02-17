@@ -1,4 +1,4 @@
-run_analysis <- function(directory='.', outfile='./tidy.dat') {
+run_analysis <- function(directory='.', outfile='./tidy.txt') {
   
   # Load up the list of Activities and their numerical codes
   act_file <- sprintf("%s/activity_labels.txt", directory)
